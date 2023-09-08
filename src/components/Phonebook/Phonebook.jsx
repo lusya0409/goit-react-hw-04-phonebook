@@ -58,7 +58,6 @@ export const Phonebook = () => {
       <h1>Phonebook</h1>
       <ContactForm onAdd={addContact} />
       <h2>Contacts</h2>
-      {}
       <ContactList items={filteredContacts} onDelete={deleteContact} />
       <Filter filter={filter} onChangeFilter={changeFilter} />
     </div>
